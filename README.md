@@ -79,13 +79,13 @@ https://github.com/SandyBhai03/BACKEND/tree/main/Assignments/Assignment-2/restfu
 1. Clone this repo or download the zip.
 
 ```sh
-https://github.com/SandyBhai03/BACKEND.git
+https://github.com/SandyBhai03/ShoppyGlobe_Backend.git
 ```
 
 2. Navigate to the project folder:
 
 ```sh
-cd Assignments/Assignment-2/restful-api-mongo
+cd ShoppyGlobe_Backend
 ```
 
 2. Install dependencies
@@ -125,8 +125,6 @@ node server.js
 
 - ✅ Returns 201 Created
 
-### Sample Screenshots
-
 #### i. register as Admin in Thunder Client
 
 ![POST User](./images/admin-register-thunder-client.png)
@@ -136,8 +134,6 @@ node server.js
 ![POST User](./images/admin-register-mongodb-compass.png)
 
 ### 2. ➕ POST /api/auth/login — login as Admin
-
-### Sample Screenshots
 
 ![POST User](./images/admin-login-thunder.png)
 
@@ -151,7 +147,6 @@ node server.js
       "stock": 5
     }
 ```
-### Sample Screenshots
 
 #### i. admin add products in thunder client
 ![POST User](./images/admin-add-new-product-thunder.png)
@@ -164,8 +159,6 @@ node server.js
 - ❌ Returns error
 
 ## ✅ GET /api/auth/users — Admin get all registered users
-
-### Sample Screenshots
 
 #### i. Admin get all users thunder client
 ![POST User](./images/admin-get-all-registered-users-thunder.png)
@@ -187,8 +180,6 @@ node server.js
   "role": "user" // take default as user if not give any role value
 }
 ```
-
-#### Sample Screenshots
 
 #### i. register as User in Thunder Client 
 
