@@ -2,12 +2,6 @@
 
 A simple RESTful API built with Node.js, Express, and MongoDB using Mongoose to manage user data.
 
-## GitHub Repo Link
-
-```sh
-https://github.com/SandyBhai03/BACKEND/tree/main/Assignments/Assignment-2/restful-api-mongo
-```
-
 ---
 
 ## 📚 Features
@@ -20,7 +14,7 @@ https://github.com/SandyBhai03/BACKEND/tree/main/Assignments/Assignment-2/restfu
 
 - ✅ Register and Login as Admin or User Using JWT Token Features
 
-- ✅ Admin can Fetch all registerd users
+- ✅ Admin can Fetch all registered users
 
 - ✅ Admin can Add new Products in DB
 
@@ -38,6 +32,8 @@ https://github.com/SandyBhai03/BACKEND/tree/main/Assignments/Assignment-2/restfu
 - Express.js
 - MongoDB (Compass for GUI)
 - Mongoose ODM
+- bcryptjs for password hash
+- JWT for Authorization
 - Thunder Client (for API testing)
 
 ---
@@ -133,11 +129,11 @@ node server.js
 
 ![POST User](./images/admin-register-mongodb-compass.png)
 
-### 2. ➕ POST /api/auth/login — login as Admin
+### 2. ➕ POST /api/auth/login — login as Admin (give token as response)
 
 ![POST User](./images/admin-login-thunder.png)
 
-### 3. ➕ POST /api/products
+### 3. ➕ POST /api/products (use token)
 
 ```sh
     {
@@ -163,7 +159,7 @@ node server.js
 #### i. Admin get all users thunder client
 ![POST User](./images/admin-get-all-registered-users-thunder.png)
 
-#### ii. Admin get all users MondoDB Compass
+#### ii. Admin get all users MongoDB Compass
 ![POST User](./images/admin-get-all-registered-users-compass.png)
 
 #### ~~~~~~~~~~~~~ User Tasks ~~~~~~~~~~~~~~
@@ -232,4 +228,4 @@ node server.js
 ## 🙌 Author
 
 Sandeep Yadav
-B.Tech CSE | Internshala Assignment
+B.Tech CSE | Internshala Backend Project
